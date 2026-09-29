@@ -68,25 +68,39 @@ The analysis included:
 - Identification of loss-making discount levels
 - Comparison of order volume and profitability
 
-## Power BI Dashboard
+## Tableau Dashboard
 
-*To be completed.*
+An interactive Tableau dashboard was created to visualise sales and profitability performance.
 
-The final dashboard will present key financial and sales KPIs and allow users to explore performance by time, category, region and customer segment.
+The dashboard includes:
+
+* Sales and profit analysis
+* Profitability by discount level
+* Category performance
+* Regional performance
+* Interactive filters for exploring the results
 
 ## Key Insights
 
-*To be completed after the SQL and Power BI analysis.*
+* Higher discount levels were associated with significantly lower profitability.
+* Discounts of approximately 35–60% resulted in an average loss of about $245 per order.
+* The Central region showed negative overall profitability and requires further investigation.
+* Technology was one of the strongest-performing categories, generating high profit despite a lower number of orders.
+* Furniture showed higher discount levels and weaker profitability compared with other categories.
 
 ## Recommendations
 
-*To be completed after identifying the key business findings.*
+- Review the discount strategy, particularly discounts above 30%, as higher discount levels are associated with significant losses.
+- Investigate the causes of negative profitability in the Central region.
+- Review pricing and discount policies for the Furniture category to improve margins.
+- Focus on profitable categories such as Technology while monitoring sales volume and margins.
+- Consider alternatives to large discounts, such as bundles, loyalty offers, or targeted promotions.
 
 ## Tools
 
-* PostgreSQL
-* SQL
-* Power BI
-* Excel
-* Git / GitHub
+
+- PostgreSQL
+- SQL
+- Excel
+- Tableau
 
