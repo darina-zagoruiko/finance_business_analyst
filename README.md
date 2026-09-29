@@ -80,6 +80,8 @@ The dashboard includes:
 * Regional performance
 * Interactive filters for exploring the results
 
+[Sales & Profit Performance Analysis (click me)](https://public.tableau.com/app/profile/darina.zagoruiko/viz/SalesProfitPerformanceAnalysis_17904320658260/Dashboard1)
+
 ## Key Insights
 
 * Higher discount levels were associated with significantly lower profitability.
