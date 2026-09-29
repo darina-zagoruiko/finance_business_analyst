@@ -82,6 +82,8 @@ The dashboard includes:
 
 [Sales & Profit Performance Analysis (click me)](https://public.tableau.com/app/profile/darina.zagoruiko/viz/SalesProfitPerformanceAnalysis_17904320658260/Dashboard1)
 
+![abc](screenshots\sales_and_profit_performance_analysis.png)
+
 ## Key Insights
 
 * Higher discount levels were associated with significantly lower profitability.
