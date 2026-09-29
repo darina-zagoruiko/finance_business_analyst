@@ -1,0 +1,56 @@
+INSERT INTO orders (
+    row_id,
+    order_id,
+    order_date,
+    ship_date,
+    ship_mode,
+    customer_id,
+    customer_name,
+    segment,
+    country,
+    city,
+    state,
+    postal_code,
+    region,
+    product_id,
+    category,
+    sub_category,
+    product_name,
+    sales,
+    quantity,
+    discount,
+    profit
+)
+SELECT
+    row_id::INTEGER,
+    order_id,
+    TO_DATE(order_date, 'MM/DD/YYYY'),
+    TO_DATE(ship_date, 'MM/DD/YYYY'),
+    TRIM(ship_mode),
+    customer_id,
+    TRIM(customer_name),
+    TRIM(segment),
+    TRIM(country),
+    TRIM(city),
+    TRIM(state),
+    postal_code::INTEGER,
+    TRIM(region),
+    product_id,
+    TRIM(category),
+    TRIM(sub_category),
+    TRIM(product_name),
+    sales::NUMERIC(12,4),
+    quantity::INTEGER,
+    discount::NUMERIC(5,2),
+    profit::NUMERIC(12,4)
+FROM orders_raw;
+
+SELECT
+    COUNT(*) AS total_rows,
+    COUNT(DISTINCT row_id) AS unique_row_ids,
+    COUNT(DISTINCT order_id) AS unique_orders,
+    MIN(order_date) AS first_order_date,
+    MAX(order_date) AS last_order_date,
+    MIN(ship_date) AS first_ship_date,
+    MAX(ship_date) AS last_ship_date
+FROM orders;
