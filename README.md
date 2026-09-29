@@ -57,16 +57,16 @@ Detailed checks are documented in:
 
 ## SQL Analysis
 
-*To be completed.*
+SQL was used to analyse sales performance, profitability, discounts, product categories, and regional performance.
 
-The analysis will include:
+The analysis included:
 
-* Sales and profit KPIs
-* Yearly sales trends
-* Category and sub-category performance
-* Regional performance
-* Customer segment analysis
-* Discount and profitability analysis
+- Sales and profit KPIs
+- Sales performance by category and region
+- Profitability by discount level
+- Category × discount analysis
+- Identification of loss-making discount levels
+- Comparison of order volume and profitability
 
 ## Power BI Dashboard
 
@@ -89,3 +89,4 @@ The final dashboard will present key financial and sales KPIs and allow users to
 * Power BI
 * Excel
 * Git / GitHub
+
